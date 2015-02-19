@@ -1,2 +1,2 @@
 # Code-Wars
-The programs I have done on [CodeWars.com](www.codewars.com/about)
+The programs I have done on [CodeWars.com](http://www.codewars.com/about)
