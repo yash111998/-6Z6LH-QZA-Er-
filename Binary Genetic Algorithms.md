@@ -18,7 +18,7 @@ Our goal here is to run the evolution process many times. Eventually, all the ch
 
 ###Your task
 
-We'll keep this task fairly simple :wink: .You will be given an outline of a GeneticAlgorithm class with a few methods. 
+We'll keep this task fairly ~~simple~~ :wink: .You will be given an outline of a GeneticAlgorithm class with a few methods. 
 
 #####Crossover & Mutate
 The **crossover** and **mutate** methods are self-explanatory: they take in two chromosomes or one and a probability (respectively) and return a crossed-over pair or a mutated chromosome.
