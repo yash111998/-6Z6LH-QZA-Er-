@@ -142,7 +142,7 @@ function interpret(code) {
         case /[0-9]/:
           stack.push(planeForm[currentRow][currentColumn].charCodeAt(0)-48);
         default:
-          throw "Invalid Character;
+          throw "Invalid Character";
       }
     }
     else{
