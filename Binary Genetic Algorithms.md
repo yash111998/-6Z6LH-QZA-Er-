@@ -1,4 +1,4 @@
-Explanation of the concept
+###Explanation of the concept
 
 Genetic algorithms are a useful tool for machine learning. One simple way to find a solution to a problem that would typically be too difficult to brute force is through algorithms such as these.
 
@@ -16,12 +16,12 @@ With a probability p_m, a mutation can occur at every bit along each new chromos
 Add these two new chromosomes into our new population and repeat steps 1-3 until you have a new population the same size as the original one. For obvious reasons, this is easier if you start off with an even sized original population.
 Our goal here is to run the evolution process many times. Eventually, all the chromosomes in our population will have a fitness close to 1! When we feel we have done enough runs, that is the time to cut it off, find the chromosome with the highest fitness, and return that as the result.
 
-Your task
+#Your task
 
 We'll keep this task fairly simple. You will be given an outline of a GeneticAlgorithm class with a few methods. 
-The crossover and mutate methods are self-explanatory: they take in two chromosomes or one and a probability (respectively) and return a crossed-over pair or a mutated chromosome. 
-The generate method generates a random chromosome of a given length (use this in your run method to create a population). 
-The select method will take a population and a corresponding list of fitnesses and return two chromosomes selected with the roulette wheel method. 
+The **crossover** and **mutate** methods are self-explanatory: they take in two chromosomes or one and a probability (respectively) and return a crossed-over pair or a mutated chromosome. 
+The **generate** method generates a random chromosome of a given length (use this in your run method to create a population). 
+The **select** method will take a population and a corresponding list of fitnesses and return two chromosomes selected with the [roulette wheel method](https://en.wikipedia.org/wiki/Fitness_proportionate_selection). 
 The run method will take a fitness function that accepts a chromosome and returns the fitness of that chromosome, the length of the chromosomes to generate (should be the same length as the goal chromosome), the crossover and mutation probabilities, and an optional number of iterations (default to 100). Make the population size whatever you want; 100 is a good number but anywhere between 50 and 1000 will work just fine (although the bigger, the slower). After the iterations are finished, the method returns the chromosome it deemed to be fittest. 
 
 This fitness function will be preloaded! What the test will do is generate a random binary string of 35 digits (a random Integer with 35 bits for Ruby), and your algorithm must discover that string! The fitness will be calculated in a way similar to above, where the score of a chromosome is the number of bits that differ from the goal string.
