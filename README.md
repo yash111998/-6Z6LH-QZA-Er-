@@ -5,7 +5,8 @@ The Solutions are *.java or *.js(javascript)
 
 Programs Till Now :
 ```
-  ASCII 85 Encoding Decoding
-  Befunge-93 Interpreter
-  Binary Genetic Algorithm
+  1.ASCII 85 Encoding Decoding
+  2.Befunge-93 Interpreter
+  3.Binary Genetic Algorithm
+  4.Reverse Polish NOtation Calaculator
 ```
