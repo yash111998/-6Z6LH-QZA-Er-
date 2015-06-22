@@ -8,5 +8,5 @@ Programs Till Now :
   1. ASCII 85 Encoding Decoding
   2. Befunge-93 Interpreter
   3. Binary Genetic Algorithm
-  4. Reverse Polish NOtation Calaculator
+  4. Reverse Polish Notation Calculator
 
